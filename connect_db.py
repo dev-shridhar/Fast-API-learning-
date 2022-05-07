@@ -8,8 +8,8 @@ app = FastAPI()
 try:
     conn = psycopg2.connect(host='localhost', 
                             database='fastapi', 
-                            user='postgres', 
-                            password='12345678',
+                            user='****', 
+                            password='********',
                             cursor_factory= RealDictCursor)
     cursor = conn.cursor()
     print("Database connection is successfull")
